@@ -14,7 +14,7 @@ namespace GenericConsolApp
             var management = new PersonManagement<Person>();
             var adam = management.GetInstance();
 
-            // açıklamada hata var tam böyle değil öğrenilip açıklama düzeltilecek...
+            // açıklamada hata var tam böyle değil öğrenilip açıklama düzeltilecek..
             //normalde Person clasının GetIstance() adında bir costructor'ı yok
             // biz PersonelManagement classımız ile default costructer'ı olmayan PErson classına 
             // GetInstance costructerını eklemiş olduk. 
