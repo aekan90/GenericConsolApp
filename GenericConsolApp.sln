@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericConsolApp1", "GenericConsolApp\GenericConsolApp1.csproj", "{716DE25B-1608-40BA-AC4B-6FDD6DDB28AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericConsolApp1", "GenericConsolApp\GenericConsolApp1.csproj", "{716DE25B-1608-40BA-AC4B-6FDD6DDB28AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericConsolApp2", "GenericConsolApp2\GenericConsolApp2.csproj", "{7960E7CB-C0D4-4950-9CD3-37F6A28F8016}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericConsolApp2", "GenericConsolApp2\GenericConsolApp2.csproj", "{7960E7CB-C0D4-4950-9CD3-37F6A28F8016}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericConsolApp3", "GenericConsolApp3\GenericConsolApp3.csproj", "{0AB621B4-BBDC-471C-BEED-F65ED3492DFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericConsolApp3", "GenericConsolApp3\GenericConsolApp3.csproj", "{0AB621B4-BBDC-471C-BEED-F65ED3492DFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericConsolApp4", "GenericConsoleApp4\GenericConsolApp4.csproj", "{503435AE-FD55-4B6A-9A27-2A4D28B8D356}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{0AB621B4-BBDC-471C-BEED-F65ED3492DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AB621B4-BBDC-471C-BEED-F65ED3492DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AB621B4-BBDC-471C-BEED-F65ED3492DFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{503435AE-FD55-4B6A-9A27-2A4D28B8D356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{503435AE-FD55-4B6A-9A27-2A4D28B8D356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{503435AE-FD55-4B6A-9A27-2A4D28B8D356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{503435AE-FD55-4B6A-9A27-2A4D28B8D356}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

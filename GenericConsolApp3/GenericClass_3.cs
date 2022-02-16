@@ -25,7 +25,7 @@ namespace GenericConsolApp
             // adam1.GetInstance();
 
             var yeniPerson=new PersonManagement<Person>();
-            yeniPerson.GetInstance()
+            yeniPerson.GetInstance();
 
         }
     }
