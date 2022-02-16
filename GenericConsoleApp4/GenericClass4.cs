@@ -20,11 +20,11 @@ namespace GenericConsolApp
         // MyClass parametre olarak class şartımız
         // referans gelen class tipinin A tipi veya A'dan türeyen sınıf  olmasıdır
 
-        class MyClass<T> where T : class,A,new()
+        class MyClass<T> where T :  A, new()
         {
             public void x()
             {
-                T T1 = new T();  // T : new ile üretilemeyen bir sınıf olabilir bu yüzden engellenir.
+                T T1 = new T();  // T : new ile üretilemeyen bir sınıf olabilir bu yüzden new() constraint kullanılmazsa engellenir.
                                  // T : static class olabilir, constructor private içeren bi class olabilir
                                  // Bir interface olabilir yani new() komutu ile intance oluşturulamayan bir class olabilir
                                  // bu nedenle T nin ne olduğu belli olmadığı için new() komutu engellenir
